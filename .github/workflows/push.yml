@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Unit Tests
-        run: make unit_test
+        run: go test
       - name: Run Provider Tests
-        run: make provider_test
+        run: go test
 
   deploy:
     runs-on: ubuntu-latest
