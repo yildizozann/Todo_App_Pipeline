@@ -5,7 +5,7 @@ import (
 	"todo_app/internal/todo"
 
 	"log"
-	"os"
+	/* "os" */
 
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
@@ -26,8 +26,8 @@ func main(){
 	handler.RegisterRoutes(app)
 
 	config.ConnectDB()
-	port := os.Getenv("PORT")
-    err := app.Listen(":" + port)
+	//port := os.Getenv("PORT")
+    err := app.Listen(":8080")
 
     if err != nil {
         log.Fatal("Error app failed to start")
