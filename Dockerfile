@@ -1,5 +1,9 @@
 # BUILD
-FROM golang:latest 
+FROM golang:latest
+
+ENV MONGO_DB_USERNAME=root \
+    MONGO_DB_PWD=example
+    
 ENV GO111MODULE=on \
     CGO_ENABLED=on \
     GOOS=linux \

@@ -17,7 +17,6 @@ docker_build:
 	docker build . -t service
 
 docker_run:
-	docker-compose down --remove-orphans
-	docker-compose up -d
 	docker run --publish 5050:5050 service
+
 	
