@@ -1,0 +1,306 @@
+# Logfile created on 2022-01-02 16:14:03 +0300 by logger.rb/47272
+I, [2022-01-02T16:27:25.331772 #8765]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:27:25.333117 #8765]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:27:25.333144 #8765] DEBUG -- : body :
+I, [2022-01-02T16:27:25.345562 #8765]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:27:25 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:27:25.345629 #8765] DEBUG -- : body: 
+W, [2022-01-02T16:27:25.348292 #8765]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:27:25.349396 #8765]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:27:25.349482 #8765]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:27:25.349501 #8765] DEBUG -- : body :
+I, [2022-01-02T16:27:25.351142 #8765]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:27:25 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:27:25.351176 #8765] DEBUG -- : body: 
+W, [2022-01-02T16:27:25.351504 #8765]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:27:25.352051 #8765]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T16:27:25.352147 #8765]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T16:27:25.352174 #8765] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T16:27:25.354002 #8765]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:27:25 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:27:25.354038 #8765] DEBUG -- : body: 
+W, [2022-01-02T16:27:25.354349 #8765]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:28:15.604949 #8818]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:28:15.606484 #8818]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:28:15.606520 #8818] DEBUG -- : body :
+I, [2022-01-02T16:28:15.618979 #8818]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:28:15 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:28:15.619036 #8818] DEBUG -- : body: 
+W, [2022-01-02T16:28:15.621875 #8818]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:28:15.623066 #8818]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:28:15.623158 #8818]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:28:15.623179 #8818] DEBUG -- : body :
+I, [2022-01-02T16:28:15.624841 #8818]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:28:15 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:28:15.624891 #8818] DEBUG -- : body: 
+W, [2022-01-02T16:28:15.625188 #8818]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:28:15.625750 #8818]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T16:28:15.625839 #8818]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T16:28:15.625864 #8818] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T16:28:15.627949 #8818]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:28:15 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:28:15.627979 #8818] DEBUG -- : body: 
+W, [2022-01-02T16:28:15.628293 #8818]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:36:55.808702 #11828]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:36:55.810022 #11828]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:36:55.810123 #11828] DEBUG -- : body :
+I, [2022-01-02T16:36:55.822622 #11828]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:36:55 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:36:55.822675 #11828] DEBUG -- : body: 
+W, [2022-01-02T16:36:55.825226 #11828]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:36:55.826307 #11828]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T16:36:55.826387 #11828]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T16:36:55.826409 #11828] DEBUG -- : body :
+I, [2022-01-02T16:36:55.827750 #11828]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:36:55 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:36:55.827778 #11828] DEBUG -- : body: 
+W, [2022-01-02T16:36:55.828055 #11828]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T16:36:55.828616 #11828]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T16:36:55.828712 #11828]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T16:36:55.828739 #11828] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T16:36:55.830194 #11828]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sun, 02 Jan 2022 13:36:55 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-01-02T16:36:55.830228 #11828] DEBUG -- : body: 
+W, [2022-01-02T16:36:55.830514 #11828]  WARN -- : No content type found, performing text diff on body
+I, [2022-01-02T18:36:56.931323 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:36:56.932506 #21338]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T18:36:56.932539 #21338] DEBUG -- : body :
+I, [2022-01-02T18:36:56.946629 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:36:56.946936 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:36:56.947061 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:36:56.947291 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T18:36:56.947397 #21338]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T18:48:11.225213 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:48:11.226680 #24423]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T18:48:11.226708 #24423] DEBUG -- : body :
+I, [2022-01-02T18:48:11.244029 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:48:11.244409 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:48:11.244561 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:48:11.246237 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T18:48:11.246396 #24423]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T18:50:04.355703 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:50:04.357076 #27270]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T18:50:04.357103 #27270] DEBUG -- : body :
+I, [2022-01-02T18:50:04.374042 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:50:04.374438 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:50:04.374590 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:50:04.374895 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T18:50:04.375060 #27270]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T18:52:08.304968 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:52:08.306490 #28191]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T18:52:08.306518 #28191] DEBUG -- : body :
+I, [2022-01-02T18:52:08.323746 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:52:08.324201 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:52:08.324371 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:52:08.324675 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T18:52:08.324815 #28191]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T18:57:05.200402 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:57:05.201739 #33138]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T18:57:05.201765 #33138] DEBUG -- : body :
+I, [2022-01-02T18:57:05.218989 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:57:05.219434 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T18:57:05.219591 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T18:57:05.219903 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T18:57:05.220039 #33138]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T19:04:52.072488 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T19:04:52.073941 #33973]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T19:04:52.073977 #33973] DEBUG -- : body :
+I, [2022-01-02T19:04:52.089669 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T19:04:52.090026 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T19:04:52.090186 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T19:04:52.090477 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T19:04:52.090612 #33973]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T19:16:33.862754 #38520]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T19:16:33.864243 #38520]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T19:16:33.864273 #38520] DEBUG -- : body :
+I, [2022-01-02T19:16:33.878323 #38520]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"656", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 16:16:33 GMT"}, see debug logs for body
+D, [2022-01-02T19:16:33.878392 #38520] DEBUG -- : body: {"todolist":[{"_id":"61d19775303533a3db43d7f0"},{"_id":"61d197a6303533a3db43d7f1"},{"_id":"61d197c0303533a3db43d7f2"},{"_id":"61d197ca303533a3db43d7f3"},{"_id":"61d197d1303533a3db43d7f4","todo":"ozan"},{"_id":"61d197d4303533a3db43d7f5","todo":"added"},{"_id":"61d1be304c54203f60d23983","todo":"ozan"},{"_id":"61d1be324c54203f60d23984","todo":"deneme"},{"_id":"61d1be344c54203f60d23985","todo":"okey"},{"_id":"61d1be374c54203f60d23986","todo":"her şey yolunda"},{"_id":"61d1cce02051edb2b72dc8fb","todo":"push the ask "},{"_id":"61d1cf9e3d2ea4353596190c","todo":"go to swim"},{"_id":"61d1cfa2c7ccbf94260df0f3","todo":"finish the task"}],"message":"Success"}
+I, [2022-01-02T19:16:33.883566 #38520]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T19:16:33.883669 #38520]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T19:16:33.883717 #38520] DEBUG -- : body :
+I, [2022-01-02T19:16:33.886385 #38520]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"656", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 16:16:33 GMT"}, see debug logs for body
+D, [2022-01-02T19:16:33.886412 #38520] DEBUG -- : body: {"todolist":[{"_id":"61d19775303533a3db43d7f0"},{"_id":"61d197a6303533a3db43d7f1"},{"_id":"61d197c0303533a3db43d7f2"},{"_id":"61d197ca303533a3db43d7f3"},{"_id":"61d197d1303533a3db43d7f4","todo":"ozan"},{"_id":"61d197d4303533a3db43d7f5","todo":"added"},{"_id":"61d1be304c54203f60d23983","todo":"ozan"},{"_id":"61d1be324c54203f60d23984","todo":"deneme"},{"_id":"61d1be344c54203f60d23985","todo":"okey"},{"_id":"61d1be374c54203f60d23986","todo":"her şey yolunda"},{"_id":"61d1cce02051edb2b72dc8fb","todo":"push the ask "},{"_id":"61d1cf9e3d2ea4353596190c","todo":"go to swim"},{"_id":"61d1cfa2c7ccbf94260df0f3","todo":"finish the task"}],"message":"Success"}
+I, [2022-01-02T19:16:33.887641 #38520]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T19:16:33.887738 #38520]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T19:16:33.887764 #38520] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T19:16:33.890324 #38520]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 16:16:33 GMT"}, see debug logs for body
+D, [2022-01-02T19:16:33.890354 #38520] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T20:14:57.779404 #41133]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:14:57.780844 #41133]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:14:57.780876 #41133] DEBUG -- : body :
+I, [2022-01-02T20:14:57.795960 #41133]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"37", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:14:57 GMT"}, see debug logs for body
+D, [2022-01-02T20:14:57.796043 #41133] DEBUG -- : body: {"todolist":null,"message":"Success"}
+I, [2022-01-02T20:14:57.800205 #41133]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:14:57.800424 #41133]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:14:57.800460 #41133] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:14:57.903522 #41133]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:14:57 GMT"}, see debug logs for body
+D, [2022-01-02T20:14:57.903598 #41133] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T20:18:30.607093 #41520]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:18:30.608562 #41520]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:18:30.608590 #41520] DEBUG -- : body :
+I, [2022-01-02T20:18:30.624194 #41520]  INFO -- : Received response with status: 404, headers: {"Access-Control-Allow-Headers"=>"*", "Access-Control-Allow-Methods"=>"*", "Access-Control-Allow-Origin"=>"*", "Content-Length"=>"146", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Sun, 02 Jan 2022 17:18:30 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-01-02T20:18:30.624263 #41520] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /alltodo</pre>
+</body>
+</html>
+
+I, [2022-01-02T20:18:30.628714 #41520]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:18:30.628875 #41520]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:18:30.628905 #41520] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:18:30.632365 #41520]  INFO -- : Received response with status: 404, headers: {"Access-Control-Allow-Headers"=>"*", "Access-Control-Allow-Methods"=>"*", "Access-Control-Allow-Origin"=>"*", "Content-Length"=>"147", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Sun, 02 Jan 2022 17:18:30 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-01-02T20:18:30.632391 #41520] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /newtodo</pre>
+</body>
+</html>
+
+I, [2022-01-02T20:21:06.896651 #41696]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:21:06.897966 #41696]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:21:06.897996 #41696] DEBUG -- : body :
+I, [2022-01-02T20:21:06.912014 #41696]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"96", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:21:06 GMT"}, see debug logs for body
+D, [2022-01-02T20:21:06.912085 #41696] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T20:21:06.913701 #41696]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:21:06.913839 #41696]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:21:06.913872 #41696] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:21:06.916499 #41696]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:21:06 GMT"}, see debug logs for body
+D, [2022-01-02T20:21:06.916532 #41696] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T20:33:24.861970 #43858]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:33:24.868288 #43858]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T20:33:24.869894 #43858]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:33:24.871169 #43858]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T20:35:35.057761 #45542]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:35:36.489483 #45542]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has a matching body'
+I, [2022-01-02T20:35:38.000496 #45542]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:35:39.444935 #45542]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has a matching body'
+I, [2022-01-02T20:36:21.475285 #46018]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:36:21.476497 #46018]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:36:21.476523 #46018] DEBUG -- : body :
+I, [2022-01-02T20:36:21.491453 #46018]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"158", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:36:21 GMT"}, see debug logs for body
+D, [2022-01-02T20:36:21.491520 #46018] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T20:36:21.493125 #46018]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:36:21.493279 #46018]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:36:21.493311 #46018] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:36:21.495752 #46018]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:36:21 GMT"}, see debug logs for body
+D, [2022-01-02T20:36:21.495787 #46018] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T20:46:56.927581 #47026]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:46:56.929064 #47026]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:46:56.929091 #47026] DEBUG -- : body :
+I, [2022-01-02T20:46:56.943812 #47026]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"220", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:46:56 GMT"}, see debug logs for body
+D, [2022-01-02T20:46:56.943869 #47026] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T20:46:56.945519 #47026]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:46:56.945662 #47026]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:46:56.945721 #47026] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:46:56.948345 #47026]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:46:56 GMT"}, see debug logs for body
+D, [2022-01-02T20:46:56.948390 #47026] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T20:54:01.104510 #54772]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T20:54:01.110898 #54772]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T20:54:01.110944 #54772] DEBUG -- : body :
+I, [2022-01-02T20:54:01.124931 #54772]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"282", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:54:01 GMT"}, see debug logs for body
+D, [2022-01-02T20:54:01.125007 #54772] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T20:54:01.126678 #54772]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T20:54:01.128867 #54772]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T20:54:01.128909 #54772] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T20:54:01.131671 #54772]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 17:54:01 GMT"}, see debug logs for body
+D, [2022-01-02T20:54:01.131703 #54772] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:01:23.862112 #66204]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:01:23.868980 #66204]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:01:23.869032 #66204] DEBUG -- : body :
+I, [2022-01-02T21:01:23.884465 #66204]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"344", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:01:23 GMT"}, see debug logs for body
+D, [2022-01-02T21:01:23.884528 #66204] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:01:23.888576 #66204]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:01:23.890632 #66204]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:01:23.890664 #66204] DEBUG -- : body :
+I, [2022-01-02T21:01:23.893385 #66204]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"344", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:01:23 GMT"}, see debug logs for body
+D, [2022-01-02T21:01:23.893426 #66204] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:01:23.894431 #66204]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:01:23.896195 #66204]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:01:23.896228 #66204] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:01:23.898808 #66204]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:01:23 GMT"}, see debug logs for body
+D, [2022-01-02T21:01:23.898833 #66204] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:01:27.049672 #66204]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:01:27.052303 #66204]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:01:27.052335 #66204] DEBUG -- : body :
+I, [2022-01-02T21:01:27.055117 #66204]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"406", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:01:26 GMT"}, see debug logs for body
+D, [2022-01-02T21:01:27.055146 #66204] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:01:27.055875 #66204]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:01:27.057707 #66204]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:01:27.057738 #66204] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:01:27.060465 #66204]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:01:26 GMT"}, see debug logs for body
+D, [2022-01-02T21:01:27.060490 #66204] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:03:31.950374 #66253]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:03:31.956587 #66253]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:03:31.956643 #66253] DEBUG -- : body :
+I, [2022-01-02T21:03:31.970413 #66253]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"468", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:03:31 GMT"}, see debug logs for body
+D, [2022-01-02T21:03:31.970489 #66253] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:03:31.974597 #66253]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given no todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:03:31.976720 #66253]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"no todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:03:31.976750 #66253] DEBUG -- : body :
+I, [2022-01-02T21:03:31.979333 #66253]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"468", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:03:31 GMT"}, see debug logs for body
+D, [2022-01-02T21:03:31.979371 #66253] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:03:31.980544 #66253]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:03:31.982560 #66253]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:03:31.982591 #66253] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:03:31.985183 #66253]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:03:31 GMT"}, see debug logs for body
+D, [2022-01-02T21:03:31.985210 #66253] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:03:35.297397 #66253]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:03:35.299753 #66253]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:03:35.299789 #66253] DEBUG -- : body :
+I, [2022-01-02T21:03:35.302737 #66253]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"530", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:03:34 GMT"}, see debug logs for body
+D, [2022-01-02T21:03:35.302818 #66253] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"},{"_id":"61d1e8f3faefe61df170daba","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:03:35.303611 #66253]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:03:35.306047 #66253]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:03:35.306097 #66253] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:03:35.308993 #66253]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:03:34 GMT"}, see debug logs for body
+D, [2022-01-02T21:03:35.309034 #66253] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:04:02.598299 #66725]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:04:02.604448 #66725]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:04:02.604493 #66725] DEBUG -- : body :
+I, [2022-01-02T21:04:02.617968 #66725]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"592", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:04:02 GMT"}, see debug logs for body
+D, [2022-01-02T21:04:02.618053 #66725] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"},{"_id":"61d1e8f3faefe61df170daba","todo":"adding dummy todo"},{"_id":"61d1e8f7faefe61df170dabb","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:04:02.619653 #66725]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:04:02.621947 #66725]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:04:02.621985 #66725] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:04:02.624659 #66725]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:04:02 GMT"}, see debug logs for body
+D, [2022-01-02T21:04:02.624694 #66725] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:06:36.495904 #69820]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:06:36.502013 #69820]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:06:36.502064 #69820] DEBUG -- : body :
+I, [2022-01-02T21:06:36.515235 #69820]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"654", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:06:36 GMT"}, see debug logs for body
+D, [2022-01-02T21:06:36.515314 #69820] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"},{"_id":"61d1e8f3faefe61df170daba","todo":"adding dummy todo"},{"_id":"61d1e8f7faefe61df170dabb","todo":"adding dummy todo"},{"_id":"61d1e9122e8068bcff3573a1","todo":"adding dummy todo"}],"message":"Success"}
+I, [2022-01-02T21:06:36.516891 #69820]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:06:36.518968 #69820]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:06:36.518999 #69820] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:06:36.521391 #69820]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:06:36 GMT"}, see debug logs for body
+D, [2022-01-02T21:06:36.521413 #69820] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T21:47:14.440167 #72506]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T21:47:14.446279 #72506]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T21:47:14.446317 #72506] DEBUG -- : body :
+I, [2022-01-02T21:47:14.459871 #72506]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"831", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:47:14 GMT"}, see debug logs for body
+D, [2022-01-02T21:47:14.459928 #72506] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"},{"_id":"61d1e8f3faefe61df170daba","todo":"adding dummy todo"},{"_id":"61d1e8f7faefe61df170dabb","todo":"adding dummy todo"},{"_id":"61d1e9122e8068bcff3573a1","todo":"adding dummy todo"},{"_id":"61d1e9acdfea3f281acbb49c","todo":"adding dummy todo"},{"_id":"61d1f31d7003a5e53b76847e","todo":"go to swim"},{"_id":"61d1f31d7003a5e53b768480","todo":"finish the task"}],"message":"Success"}
+I, [2022-01-02T21:47:14.461890 #72506]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T21:47:14.463252 #72506]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T21:47:14.463285 #72506] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T21:47:14.465513 #72506]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 18:47:14 GMT"}, see debug logs for body
+D, [2022-01-02T21:47:14.465544 #72506] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-02T22:42:17.412342 #73128]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-02T22:42:17.417837 #73128]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-02T22:42:17.417872 #73128] DEBUG -- : body :
+I, [2022-01-02T22:42:17.431782 #73128]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"1008", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 19:42:17 GMT"}, see debug logs for body
+D, [2022-01-02T22:42:17.431841 #73128] DEBUG -- : body: {"todolist":[{"_id":"61d1dd91ec6a09ae988b0089","todo":"adding dummy todo"},{"_id":"61d1df02f25eb97b1c37eabe","todo":"adding dummy todo"},{"_id":"61d1e2957de92cac10191d1d","todo":"adding dummy todo"},{"_id":"61d1e510e5c06ec42906515e","todo":"adding dummy todo"},{"_id":"61d1e6b9f4cb8660eb86d382","todo":"adding dummy todo"},{"_id":"61d1e873ecb4b1829718c70c","todo":"adding dummy todo"},{"_id":"61d1e877ecb4b1829718c70d","todo":"adding dummy todo"},{"_id":"61d1e8f3faefe61df170daba","todo":"adding dummy todo"},{"_id":"61d1e8f7faefe61df170dabb","todo":"adding dummy todo"},{"_id":"61d1e9122e8068bcff3573a1","todo":"adding dummy todo"},{"_id":"61d1e9acdfea3f281acbb49c","todo":"adding dummy todo"},{"_id":"61d1f31d7003a5e53b76847e","todo":"go to swim"},{"_id":"61d1f31d7003a5e53b768480","todo":"finish the task"},{"_id":"61d1f33272076562b51aecac","todo":"adding dummy todo"},{"_id":"61d200128fdf0cb43cb88103","todo":"go to swim"},{"_id":"61d200128fdf0cb43cb88105","todo":"finish the task"}],"message":"Success"}
+I, [2022-01-02T22:42:17.433550 #73128]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-02T22:42:17.434817 #73128]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-02T22:42:17.434848 #73128] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-02T22:42:17.437090 #73128]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Sun, 02 Jan 2022 19:42:17 GMT"}, see debug logs for body
+D, [2022-01-02T22:42:17.437116 #73128] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
+I, [2022-01-03T04:22:38.983085 #13295]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's exist a request to get all todo with GET /alltodo returns a response which has status code 200'
+I, [2022-01-03T04:22:38.990887 #13295]  INFO -- : Sending GET request to path: "/alltodo" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's exist"}]}, see debug logs for body
+D, [2022-01-03T04:22:38.990936 #13295] DEBUG -- : body :
+I, [2022-01-03T04:22:39.008683 #13295]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"37", "Content-Type"=>"application/json", "Date"=>"Mon, 03 Jan 2022 01:22:39 GMT"}, see debug logs for body
+D, [2022-01-03T04:22:39.008754 #13295] DEBUG -- : body: {"todolist":null,"message":"Success"}
+I, [2022-01-03T04:22:39.013251 #13295]  INFO -- : Running example 'Verifying a pact between todo-consumer and todo-provider Given todo's created a request to add todo with POST /newtodo returns a response which has status code 201'
+I, [2022-01-03T04:22:39.014510 #13295]  INFO -- : Sending POST request to path: "/newtodo" with headers: {"CONTENT_TYPE"=>"application/json; charset=utf-8", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"todo's created"}]}, see debug logs for body
+D, [2022-01-03T04:22:39.014549 #13295] DEBUG -- : body :{"todo":"adding dummy todo"}
+I, [2022-01-03T04:22:39.031994 #13295]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"67", "Content-Type"=>"application/json", "Date"=>"Mon, 03 Jan 2022 01:22:39 GMT"}, see debug logs for body
+D, [2022-01-03T04:22:39.032038 #13295] DEBUG -- : body: {"message":"New ToDo Added to Databese","todo":"adding dummy todo"}
